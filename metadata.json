@@ -1,0 +1,8 @@
+{
+  "name": "CineScript AI",
+  "description": "AI-powered movie screenplay generation and editing platform with comprehensive Indian and World multilingual support, Story Outlines, and dual AI evaluations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .screenplay-font {
+    font-family: 'Courier Prime', 'Noto Sans Tamil', 'Mukta Malar', monospace;
+  }
+  .serif-title {
+    font-family: 'Playfair Display', serif;
+  }
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+  }
+  .script-page {
+    background: #161618;
+    border: 1px solid #2D2D30;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0A0A0B;
+  color: #E2E8F0;
+}
